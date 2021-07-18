@@ -79,7 +79,7 @@ body {
 }
 
 .btn {
-    padding: .55em 1.7em;
+    padding: .7em 2em;
     background-color: red;
     outline: none;
     border: none;
@@ -264,6 +264,7 @@ button[type = "submit"] {
 @media (max-width: 467px) {
     .container {
         width: 100%;
+        padding: 0;
         align-items: center;
     }
     #navbar {
@@ -277,5 +278,16 @@ button[type = "submit"] {
         position: absolute;
         bottom: 25px;
         right: 15px;
+    }
+    h2 {
+        display: none;
+    }
+    .darkModeBtn {
+        width: 45px;
+        height: 45px;
+    }
+    .darkModeBtn > svg {
+        width: 30px;
+        height: 30px;
     }
 }
